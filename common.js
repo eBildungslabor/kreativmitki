@@ -46,7 +46,7 @@ Wiederhole den Wechsel so lange, bis ich aufhöre zu spielen.`;
             prompt = `Nutze die Kopfstand-Methode, um mir zu helfen kreative Ideen zur folgenden Herausforderung zu entwickeln:
 "${challenge}"
 Anstatt dass du mir sinnvolle Ideen vorschlägst, versuchst du dir möglichst dumme Ideen zu überlegen (= Kopfstand). Es sollen Ideen sein, mit denen meine Herausforderung garantiert nicht bewältigt werden kann.
-Du nennst mir jeweils immer eine Kopfstand-Idee und fragst dann, ob mir davon ausgehend bereits eine richtige Idee einfällt oder ob du die Idee noch dümmer machen sollst oder noch eine andere Kopfstand-Idee nennen sollst.
+Du nennst mir jeweils immer eine Kopfstand-Idee und fragst dann, ob mir davon ausgehend bereits eine richtige Idee einfällt oder ob du die Idee noch dümmer machen sollst (= deine genannte Kopfstand-Idee weiter verschlimmern) oder noch eine andere Kopfstand-Idee (= einen anderen Aspekt aufgreifen, was gar keine Hilfe wäre) nennen sollst.
 Du generierst so lange immer eine nach der anderen dümmstmögliche Kopfstand-Ideen, bis ich eine für mich sinnvolle Idee zur Bewältigung meiner Herausforderung gefunden habe. Starte jetzt mit der ersten Kopfstand-Idee zu meiner genannten Herausforderung.`;
 
         }
