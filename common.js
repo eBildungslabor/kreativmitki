@@ -37,17 +37,17 @@ Wiederhole diesen Prozess, bis ich den Dialog beende.`;
             prompt = `Wir spielen ein kreatives Ideen-PingPong.
 Die Herausforderung lautet: ${challenge}.
 Du beginnst, indem du mich bittest, eine erste Idee in Stichpunkten zu nennen.
-Erst danach nennst du selbst eine Idee.
+Erst danach nennst du selbst eine Idee. Deine Idee muss unterschiedlich zu meiner Idee sein und einen neuen Aspekt aufgreifen.
 Dann forderst du mich direkt zur nächsten Idee auf – und so weiter.
 Die Ideen sollen möglichst kurz, überraschend und unterschiedlich sein.
 Wiederhole den Wechsel so lange, bis ich aufhöre zu spielen.`;
         } else if (page.includes('result-methoden.html')) {
             // Prompt für SCAMPER-Methode
-            prompt = `Nutze die SCAMPER-Methode, um kreative Ideen zur folgenden Herausforderung zu entwickeln:
+            prompt = `Nutze die Kopfstand-Methode, um mir zu helfen kreative Ideen zur folgenden Herausforderung zu entwickeln:
 "${challenge}"
-Für jeden der sieben SCAMPER-Schritte (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse)
-sollst du jeweils drei kurze, ungewöhnliche und kreative Ideen liefern.
-Liste die Ideen geordnet nach den SCAMPER-Buchstaben auf.`;
+Anstatt dass du mir sinnvolle Ideen vorschlägst, versuchst du dir möglichst dumme Ideen zu überlegen (= Kopfstand). Es sollen Ideen sein, mit denen meine Herausforderung garantiert nicht bewältigt werden kann.
+Du nennst mir jeweils immer eine Kopfstand-Idee und fragst dann, ob mir davon ausgehend bereits eine richtige Idee einfällt oder ob du die Idee noch dümmer machen sollst oder noch eine andere Kopfstand-Idee nennen sollst.
+Du generierst so lange immer eine nach der anderen dümmstmögliche Kopfstand-Ideen, bis ich eine für mich sinnvolle Idee zur Bewältigung meiner Herausforderung gefunden habe. Starte jetzt mit der ersten Kopfstand-Idee zu meiner genannten Herausforderung.`;
 
         }
 
