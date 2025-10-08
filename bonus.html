@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="simple.css" rel="stylesheet">
+    <title>Bonus-Ideen</title>
+    <script>
+        function promptKopieren(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert("Prompt wurde kopiert!");
+            }, function(err) {
+                console.error("Kopieren fehlgeschlagen: ", err);
+            });
+        }
+    </script>
+</head>
+<body>
+<header>
+    <h1>Kreativität im Kontext von KI?</h1>
+    <p>Praktische Impulse zum Ausprobieren</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="herausforderung.html">Sokratischer Dialog</a></li>
+            <li><a href="spiel.html">Brainstorming</a></li>
+            <li><a href="methoden.html">Scamper-Remix</a></li>
+            <li><a href="bonus.html">Bonus</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Bonus-Ideen</h2>
+    <p>Neben dem Sokratischen Dialog, dem Prompting als Spiel und einem Methoden-Remix zum Beispiel mit SCAMPER kannst du dich noch auf vielfältige andere Weise von KI-Sprachmodellen herausfordern lassen und so ins Lernen kommen.</p>
+    <h3>Probiere es aus!</h3>
+    <p>Hier sind einige Prompt-Ideen, die du ausprobieren kannst. Vor allem sollen sie dazu anregen, dass du eigene Ideen für dein Lernen entwickeln kannst.</p>
+
+    <div>
+        <h4>Prompt 1</h4>
+        <p>Ich teile einen Text mit dir. Du gibst ihn mir anschließend Abschnitt für Abschnitt zurück und gibst mir dazu jeweils eine Anregung, was ich verbessern kann...</p>
+        <button onclick="promptKopieren('Ich teile einen Text mit dir. Du gibst ihn mir anschließend Abschnitt für Abschnitt zurück ...')">Prompt kopieren</button>
+    </div>
+
+    <div>
+        <h4>Prompt 2</h4>
+        <p>Generiere mir eine Liste mit 10 Personas, die potentiell in einem Lernangebot zu Künstlicher Intelligenz an der Hochschule lernen (möchten)...</p>
+        <button onclick="promptKopieren('Generiere mir eine Liste mit 10 Personas, die potentiell in einem Lernangebot zu Künstlicher Intelligenz an der Hochschule lernen (möchten)...')">Prompt kopieren</button>
+    </div>
+
+    <div>
+        <h4>Prompt 3</h4>
+        <p>Wir spielen ein Spiel. Ich schreibe eine Aussage zu KI in meinem beruflichen Kontext...</p>
+        <button onclick="promptKopieren('Wir spielen ein Spiel. Ich schreibe eine Aussage zu KI in meinem beruflichen Kontext ...')">Prompt kopieren</button>
+    </div>
+
+</main>
+<footer>
+    <p>Erstellt von Nele Hirsch (eBildungslabor) |
+    Lizenz: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0</a></p>
+</footer>
+</body>
+</html>
